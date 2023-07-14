@@ -1,0 +1,17 @@
+.contato__botao {
+    background: #2A7AE4;
+    border: 2px solid #2A7AE4;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0.75rem;
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+}
+
+.contato__botao:hover {
+    background: transparent;
+    color: #2A7AE4;
+    cursor: pointer;
+
+}

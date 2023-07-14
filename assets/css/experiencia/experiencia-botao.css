@@ -1,0 +1,31 @@
+.experiencia__botao {
+    border: 2px solid #2A7AE4;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0.75rem;
+    text-decoration: none;
+    transition: all .1s ease-in-out;
+}
+
+.experiencia__botao:hover {
+    cursor: pointer;
+}
+
+.experiencia__botao--demo {
+    background: #2A7AE4;
+    color: white;
+}
+
+.experiencia__botao--demo:hover {
+    background-color: transparent;
+    color:#2A7AE4;
+}
+
+.experiencia__botao--repo {
+    color: #2A7AE4;
+}
+
+.experiencia__botao--repo:hover {
+    background-color: #2A7AE4;
+    color: white;
+}

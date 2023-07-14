@@ -1,0 +1,5 @@
+@media screen and (min-width: 1024px) {
+    .contato__texto {
+        width: 85%;
+    }
+}

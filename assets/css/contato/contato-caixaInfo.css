@@ -1,0 +1,20 @@
+.contato__caixaInfo {
+    background: #FFF;
+    border: none;
+    border-bottom: 3px solid lightgrey;
+    border-radius: 8px;
+    height: 3rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.contato__caixaInfo:focus-within {
+    border-bottom: 3px solid #2A7AE4;
+ 
+}
+
+@media screen and (min-width: 1024px) {
+    .contato__caixaInfo {
+        width: 600px;
+    }
+}

@@ -1,0 +1,10 @@
+.hobbies__icone {
+    padding-left: 1rem;
+    padding-top: 2.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .hobbies__icone {
+        padding-top: 6rem;
+    }
+}

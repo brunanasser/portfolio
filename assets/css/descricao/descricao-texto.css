@@ -1,0 +1,10 @@
+.descricao__texto {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .descricao__texto {
+        font-size: 22px;
+    }
+}

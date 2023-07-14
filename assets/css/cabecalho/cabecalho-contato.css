@@ -1,0 +1,21 @@
+.cabecalho__contato {
+    font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho__contato {
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cabecalho__contato{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .cabecalho__contato{
+        font-size: 13px;
+    }
+}

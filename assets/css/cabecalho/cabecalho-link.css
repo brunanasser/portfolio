@@ -1,0 +1,11 @@
+.cabecalho__link {
+    text-decoration: none;
+    margin-left: 1rem;
+    font-size: 14px;
+    color:black;
+}
+
+.cabecalho__link:hover {
+    text-decoration: underline;
+}
+

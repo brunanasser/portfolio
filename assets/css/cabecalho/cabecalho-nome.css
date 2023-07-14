@@ -1,0 +1,11 @@
+.cabecalho__nome {
+    color: #464646;
+    font-weight: 700;
+    margin-left: .5rem;
+}
+
+@media screen and (max-width: 375px) {
+    .cabecalho__nome{
+        font-size: 14px;
+    }
+}

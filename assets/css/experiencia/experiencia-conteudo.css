@@ -1,0 +1,24 @@
+.experiencia__conteudo {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+@media screen and (min-width: 1024px) {
+    .experiencia__conteudo {
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 1rem;
+    }
+
+    .experiencia__conteudo:nth-child(even) {
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .experiencia__conteudo {
+        padding: 1rem;
+    }
+}

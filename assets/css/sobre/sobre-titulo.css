@@ -1,0 +1,12 @@
+.sobre__titulo {
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .sobre__titulo {
+        font-size: 32px;
+        padding-top: 3rem;
+    }
+}

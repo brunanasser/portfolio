@@ -1,0 +1,17 @@
+.descricao__avatar {
+    border-radius: 100%;
+    margin-top: 2.5rem;
+    width: 98px;
+}
+
+@media screen and (min-width: 768px) {
+    .descricao__avatar{
+        width: 146px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .descricao__avatar{
+        width: 368px;
+    }
+}

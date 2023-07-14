@@ -1,0 +1,28 @@
+.formacao__imagem {
+    background: no-repeat center / cover;
+    background-color: #FFF;
+    border-radius: 64px;
+    height: 120px;
+    margin: 0 3.2rem 0 2rem;
+    width: 300px;
+        
+}
+
+.formacao__imagem--uniderp {
+    background-image: url("../../img/Thumb-Uniderp.jpg");
+}
+
+.formacao__imagem--ada {
+    background-image: url("../../img/Thumb-Ada.png");
+}
+
+.formacao__imagem--alura {
+    background-image: url("../../img/Thumb-Alura.jpg");
+}
+
+@media screen and (min-width:1024px) {
+    .formacao__imagem {
+        width: 24rem;
+        height: 16rem;
+    }
+}

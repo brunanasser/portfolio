@@ -1,0 +1,10 @@
+.experiencia__imagem {
+    width: 320px;
+    
+}
+
+@media screen and (min-width: 768px) {
+    .experiencia__imagem {
+        width: 704px;
+    }
+}

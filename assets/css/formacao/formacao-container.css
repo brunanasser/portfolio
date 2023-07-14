@@ -1,0 +1,19 @@
+.formacao__container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media screen and (min-width: 768px) {
+    .formacao__container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .formacao__container {
+        justify-content: center;
+    }
+}

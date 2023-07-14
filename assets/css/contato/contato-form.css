@@ -1,0 +1,13 @@
+.contato__form {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    .contato__form {
+        width: 85%;
+    }
+}

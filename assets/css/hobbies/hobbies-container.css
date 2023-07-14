@@ -1,0 +1,13 @@
+.hobbies__container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2.5rem;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+    .hobbies__container {
+        margin-bottom: 2rem;
+    }
+}

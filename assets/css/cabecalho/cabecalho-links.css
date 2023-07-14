@@ -1,0 +1,9 @@
+.cabecalho__links {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho__links {
+        display: flex;
+    }
+}

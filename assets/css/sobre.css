@@ -1,0 +1,16 @@
+.sobre {
+    margin-bottom: 0.2rem;
+    padding: 0 0.75rem 0 0.75rem;
+}
+
+@media screen and (min-width: 768px) {
+    .sobre {
+        padding: 0 2rem 0 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .sobre {
+        padding: 0 7rem 0 7rem;
+    }
+}

@@ -1,0 +1,35 @@
+.skills__skill {
+    height: 80px;
+    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
+    transition: all .1s ease-in-out;
+    width: 80px;
+}
+
+.skills__skill:hover {
+    transform: translateY(-1rem);
+}
+
+.skills__skill:last-child {
+    margin-left: 0px;
+}
+
+@media screen and (min-width: 768px) {
+    .skills__skill {
+        width: 18rem;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .skills__skill {
+        height: 12rem;
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .skills__skill{
+        width: 100%;
+    }
+}

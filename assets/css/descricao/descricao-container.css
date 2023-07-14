@@ -1,0 +1,16 @@
+.descricao__container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+    .descricao__container {
+        max-width: 75%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .descricao__container {
+        justify-content: center;
+    }
+}

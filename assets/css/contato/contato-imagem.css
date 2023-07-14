@@ -1,0 +1,10 @@
+@media screen and (min-width: 1024px) { 
+    .contato__imagem {
+        background: no-repeat center / cover;
+        background-image: url(../../img/correo-email.gif);
+        border-radius: 8px;
+        height: 647px; 
+        margin-top: 1rem;
+        width: 464px;
+    }
+}

@@ -1,0 +1,13 @@
+.formacao__curso {
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    margin-left: 2.5rem;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+@media screen and (min-width:1024px) {
+    .formacao__curso {
+        font-size: 22px;
+    }
+}

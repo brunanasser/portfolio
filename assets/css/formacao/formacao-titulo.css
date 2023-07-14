@@ -1,0 +1,13 @@
+.formacao__titulo {
+    color: #464646;
+    font-size: 22px;
+    font-weight: 700;
+    margin: .75rem auto 2rem auto;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .formacao__titulo{
+        font-size: 32px;
+    }
+}

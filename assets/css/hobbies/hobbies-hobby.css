@@ -1,0 +1,32 @@
+.hobbies__hobby {
+    background-color: #FFF;
+    border-radius: 18px;
+    height: 130px;
+    margin-bottom: 1.5rem;
+    width: 156px;
+    transition: all .1s ease-in-out;
+}
+
+.hobbies__hobby:hover {
+    transform: translateY(-1rem);
+}
+
+@media screen and (min-width: 768px) {
+    .hobbies__hobby {
+        width: 220px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hobbies__hobby {
+        height: 12rem;
+        width: 27rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .hobbies__hobby{
+        width: 100%;
+    }
+}
+

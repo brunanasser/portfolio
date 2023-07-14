@@ -1,0 +1,38 @@
+.descricao__link {
+    color:black;
+    color: #464646;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 0.5rem;
+    text-decoration: none;
+}
+
+.descricao__link:after {
+    content: url(../../img/seta-link.svg);
+    margin-left: 0.2rem;
+}
+
+.descricao__link:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-width:768px) {
+
+    .descricao__link {
+        font-size: 15px;
+        font-weight: 500;
+        margin-right: 0;
+        padding: 0 2.3rem 0 2.3rem;
+    }
+
+    .descricao__link:nth-child(1) {
+        padding-left: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .descricao__link {
+        font-size: 16px;
+    }
+}

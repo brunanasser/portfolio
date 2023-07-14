@@ -1,0 +1,14 @@
+.contato__container {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 1024px) {
+    .contato__container {
+        margin-bottom: 2rem;
+        margin-left: 1.5rem;
+        width: 600px;
+    }
+}
